@@ -24,8 +24,9 @@ abstract class Shape{
 	
 	abstract public double calculateArea();
 	abstract public double calculatePerimeter();
-	abstract public double calculateVolume();
-	abstract public double calculateSurfaceArea();
+	public double calculateVolume(); return 0; } 
+    	public double calculateSurfaceArea() { return 0; } 
+	
 	
 	public int getNumSides(){
 		return num_sides;

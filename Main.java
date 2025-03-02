@@ -15,7 +15,7 @@ public class Main {
             System.out.println("3. Square");
             System.out.println("4. Sphere");
             System.out.println("5. Cylinder");
-            System.out.println("6. Equilateral Pyramid");
+            System.out.println("6. Pyramid");
             System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
             choice = scan.nextInt();
@@ -63,7 +63,7 @@ public class Main {
                 case 6:
                     System.out.print("Enter length of pyramid base: ");
                     double pyramidLength = scan.nextDouble();
-                    EquilateralPyramid pyramid = new EquilateralPyramid(pyramidLength);
+                    Pyramid pyramid = new Pyramid(pyramidLength);
                     System.out.println("Volume: " + pyramid.calculateVolume());
                     System.out.println("Surface Area: " + pyramid.calculateSurfaceArea());
                     break;

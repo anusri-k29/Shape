@@ -48,8 +48,8 @@ public class Main {
                     System.out.print("Enter radius of sphere: ");
                     double sphereRadius = scan.nextDouble();
                     Sphere sphere = new Sphere(sphereRadius);
+                    System.out.println("Surface Area: " + sphere.calculateArea());
                     System.out.println("Volume: " + sphere.calculateVolume());
-                    System.out.println("Surface Area: " + sphere.calculateSurfaceArea());
                     break;
                 case 5:
                     System.out.print("Enter radius of cylinder: ");
@@ -57,15 +57,15 @@ public class Main {
                     System.out.print("Enter height of cylinder: ");
                     double cylinderHeight = scan.nextDouble();
                     Cylinder cylinder = new Cylinder(cylinderRadius, cylinderHeight);
+                    System.out.println("Surface Area: " + cylinder.calculateArea());
                     System.out.println("Volume: " + cylinder.calculateVolume());
-                    System.out.println("Surface Area: " + cylinder.calculateSurfaceArea());
                     break;
                 case 6:
                     System.out.print("Enter length of pyramid base: ");
                     double pyramidLength = scan.nextDouble();
                     Pyramid pyramid = new Pyramid(pyramidLength);
+                    System.out.println("Surface Area: " + pyramid.calculateArea());
                     System.out.println("Volume: " + pyramid.calculateVolume());
-                    System.out.println("Surface Area: " + pyramid.calculateSurfaceArea());
                     break;
                 case 7:
                     System.out.println("Exiting program...");

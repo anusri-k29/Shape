@@ -44,6 +44,5 @@
 - **Menu-driven selection** for choosing a shape.  
 - **Separate files for each shape** following OOP principles.  
 - Uses **abstract classes** to enforce method implementation.  
-- **No API dependencies** – pure Java implementation.  
 
 
